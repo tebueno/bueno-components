@@ -1,0 +1,39 @@
+{
+  "name": "bueno-components",
+  "version": "1.0.0",
+  "description": "Reusable react components that are Bueno!",
+  "main": "./index.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tebueno/bueno-components.git"
+  },
+  "keywords": [],
+  "author": "Tom Bueno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tebueno/bueno-components/issues"
+  },
+  "homepage": "https://github.com/tebueno/bueno-components#readme",
+  "peerDependencies": {
+    "react": "^16.13.0"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "react-hot-loader": "^4.12.10",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
